@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: rgba(234, 86, 0, 0.99);
+  color: #fff;
+}
+
+* {
+  font-family: "EB Garamond", sans-serif;
+}
