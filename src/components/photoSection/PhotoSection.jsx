@@ -22,7 +22,7 @@ const PhotoSection = (props) => {
           </h1>
         </div>
         <div className="absolute bottom-7 right-7">
-          <span class="group-hover:animate-ping absolute inline-flex h-full w-full rounded-full group-hover:bg-orange-600 opacity-75"></span>
+          <span class="group-hover:animate-ping transition-all duration-300 absolute inline-flex h-full w-full rounded-full group-hover:bg-orange-600 opacity-75"></span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-16 h-16 text-white bg-transparent group-hover:bg-orange-500 group-hover:rounded-full group-hover:stroke-white"

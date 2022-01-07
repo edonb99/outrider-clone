@@ -5,18 +5,18 @@ const Footer = () => {
     <div className="my-16 ">
       <div className="flex flex-col items-center text-xl font-normal text-white ">
         <p className="mb-5 text-xs uppercase ">SIGN UP FOR OUTRIDER EMAILS</p>
-        <h1 className="mb-5 text-4xl ">
+        <h1 className="mb-5 text-4xl text-center md:text-center ">
           Get the Latest Articles from Outrider
         </h1>
 
-        <div className="px-0 py-7">
+        <div className="flex flex-col mx-0 md:flex-row my-7">
           <input
             className="px-2 py-0 mb-2 mr-8 bg-transparent border-2 border-white h-14 w-96 "
             type="text"
             placeholder="Your email address"
           ></input>
           <button
-            className="py-4 text-xs font-normal text-white uppercase bg-orange-600 border-none rounded-full cursor-pointer px-11 "
+            className="relative px-4 py-3 text-xs font-normal text-white uppercase transition-all duration-500 bg-orange-600 border-none rounded-full cursor-pointer group md:py-2 md:px-5 "
             type="submit"
           >
             Sign me up!
@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="flex flex-row gap-3">
           <a
             href="/"
-            className="flex items-center justify-center w-10 h-10 text-black bg-white rounded-full hover:bg-black hover:text-white "
+            className="flex items-center justify-center w-10 h-10 text-black transition-all duration-500 bg-white rounded-full hover:bg-black hover:text-white "
           >
             <svg
               class="h-5 w-5 "
@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
           <a
             href="/"
-            className="flex items-center justify-center w-10 h-10 text-black bg-white rounded-full hover:bg-black hover:text-white "
+            className="flex items-center justify-center w-10 h-10 text-black transition-all duration-500 bg-white rounded-full hover:bg-black hover:text-white "
           >
             <svg
               class="h-5 w-5"
@@ -63,7 +63,7 @@ const Footer = () => {
           </a>
           <a
             href="/"
-            className="flex items-center justify-center w-10 h-10 text-black bg-white rounded-full hover:bg-black hover:text-white "
+            className="flex items-center justify-center w-10 h-10 text-black transition-all duration-500 bg-white rounded-full hover:bg-black hover:text-white "
           >
             <svg
               class="h-5 w-5 "
@@ -82,7 +82,7 @@ const Footer = () => {
           </a>
           <a
             href="/"
-            className="flex items-center justify-center w-10 h-10 text-black bg-white rounded-full hover:bg-black hover:text-white "
+            className="flex items-center justify-center w-10 h-10 text-black transition-all duration-500 bg-white rounded-full hover:bg-black hover:text-white "
           >
             <svg
               class="h-5 w-5 "
